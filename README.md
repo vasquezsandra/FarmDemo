@@ -1,16 +1,45 @@
-This farm tycoon game now has some graphics for some actions. 
-There is a working main menu, with working buttons and background music.
-At the moment, there is a character sprite that can walk across the screen and
-has walking animations along with it. 
-There is a game intro with a text bubble that appears on the screen. You can navigate
-the intro with a working continue button.
-There are plant beds that when clicked, another menu pops up asking if you want to
-water the plant or collect it.
-The water button will invoke the watering action from the player sprite. 
- 
-Im trying to make updates soon to the game, hopefully before presentations.
-I do want to have the player sprite loop through some frames so that it has a 
-better animation  when it waters the plants.
-I also need to create a new class so that the player can see the plants growing
-after it gets watered. 
-I also need to add action to the collect button.
+README:
+
+This is a 2D farming simulation game developed using the Java framework libGDX. Some of the game art assets were purchased from itch.io.
+
+How to Run the Game:
+
+- Download or clone the repository.
+
+- Extract the project files if downloaded as a ZIP.
+
+- Open the project in a Java IDE such as IntelliJ IDEA or Eclipse IDE.
+
+- Import/open the project using Gradle.
+
+- Navigate to:
+
+- lwjgl3 -> src -> main -> java
+
+- Run Lwjgl3Launcher to start the game.
+
+
+Game Objective:
+
+The game begins with the player managing two farming plots. Players can water and harvest crops while managing their stamina.
+
+- Harvesting crops decreases the player’s stamina.
+- The inventory can be opened by clicking the basket button.
+- To restore stamina, click the Home button and rest.
+- Sleeping fully restores the stamina bar.
+
+
+Player Controls:
+
+Movement
+
+
+- Left Arrow Key: Move left
+- Right Arrow Key:  Move right
+- Up Arrow Key: Move up
+- Down Arrow Key: Move down
+
+Interactions
+- Left Mouse Click on plots: Water crops
+- Left Mouse Click on UI buttons: Interact with menus and game options
+
